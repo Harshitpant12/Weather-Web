@@ -14,12 +14,19 @@
         <button id="get-weather-btn">Get Weather</button>
       </div>
       <div id="weather-info" class="hidden">
-        <h2 id="city-name"></h2>
+        <h2 id="city-name">
+          <span id="city-text"></span>
+          <img id="weatherIcon" alt="Weather Icon" />
+        </h2>
         <p id="temperature"></p>
+        <p id="weather"></p>
+        <p id="humidity"></p>
+        <p id="min-temp"></p>
+        <p id="max-temp"></p>
         <p id="description"></p>
       </div>
       <p id="error-message" class="hidden">City not found. Please try again.</p>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
