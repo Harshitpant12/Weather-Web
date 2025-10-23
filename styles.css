@@ -72,3 +72,13 @@ button:hover {
     color: #FF5722;
     margin-top: 20px;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 0 10px;
+    width: 50px;
+}
