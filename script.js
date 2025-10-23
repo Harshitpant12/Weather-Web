@@ -1,4 +1,4 @@
-import { countryNames } from "./cocuntry-names.js"
+import { countryNames } from "./country-names.js"
 document.addEventListener('DOMContentLoaded', () => {
     const cityInput = document.getElementById("city-input")
     const getWeatherBtn = document.getElementById("get-weather-btn")
@@ -73,3 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
